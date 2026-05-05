@@ -27,11 +27,8 @@ CLASS zcl_vend_child_ecemyalim DEFINITION
           mv_bank_account TYPE string.
 ENDCLASS.
 
-
-
 CLASS zcl_vend_child_ecemyalim IMPLEMENTATION.
   METHOD constructor.
-
     super->constructor( iv_bp_number = iv_bp_number
                         iv_name      = iv_name
                         iv_city      = iv_city

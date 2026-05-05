@@ -1,10 +1,10 @@
 CLASS zcl_bp_super_ecemyalim DEFINITION
-  PUBLIC.
+  PUBLIC
 *  FINAL
-*  CREATE PUBLIC .
+  CREATE PUBLIC .
 
   PUBLIC SECTION.
-    INTERFACES if_oo_adt_classrun .
+
     METHODS:
       constructor IMPORTING iv_bp_number TYPE numc5
                             iv_name      TYPE string

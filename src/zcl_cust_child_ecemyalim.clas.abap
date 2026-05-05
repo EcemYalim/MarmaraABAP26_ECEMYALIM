@@ -22,12 +22,10 @@ CLASS zcl_cust_child_ecemyalim DEFINITION
   PROTECTED SECTION.
   PRIVATE SECTION.
     DATA: mv_customer_no  TYPE kunnr,
-          mv_credit_limit TYPE p DECIMALS 2,
+          mv_credit_limit TYPE i,
           mv_payment_term TYPE dzterm.
 
 ENDCLASS.
-
-
 
 CLASS zcl_cust_child_ecemyalim IMPLEMENTATION.
 

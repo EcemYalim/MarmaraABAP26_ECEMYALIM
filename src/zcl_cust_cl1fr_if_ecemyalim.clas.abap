@@ -15,10 +15,7 @@ CLASS zcl_cust_cl1fr_if_ecemyalim DEFINITION
     DATA: mv_customer_no  TYPE kunnr,
           mv_name         TYPE string,
           mv_credit_limit TYPE i.
-
 ENDCLASS.
-
-
 CLASS zcl_cust_cl1fr_if_ecemyalim IMPLEMENTATION.
 
   METHOD constructor.

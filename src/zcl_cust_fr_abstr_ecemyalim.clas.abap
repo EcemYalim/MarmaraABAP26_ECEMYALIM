@@ -26,7 +26,6 @@ CLASS zcl_cust_fr_abstr_ecemyalim DEFINITION
 
 ENDCLASS.
 
-
 CLASS zcl_cust_fr_abstr_ecemyalim IMPLEMENTATION.
   METHOD constructor.
     super->constructor( iv_bp_number = iv_bp_number
